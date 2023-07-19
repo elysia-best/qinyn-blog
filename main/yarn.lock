@@ -282,11 +282,6 @@ async-each@^1.0.0, async-each@^1.0.1:
   resolved "https://registry.npmmirror.com/async-each/-/async-each-1.0.3.tgz#b727dbf87d7651602f06f4d4ac387f47d91b0cbf"
   integrity sha512-z/WhQ5FPySLdvREByI2vZiTWwCnF0moMJ1hK9YQwDTHKh6I7/uSckMetoRGb5UBZPC1z0jlw+n/XCgjeH7y1AQ==
 
-async@^1.5.1:
-  version "1.5.2"
-  resolved "https://registry.npmmirror.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
-  integrity sha512-nSVgobk4rv61R9PUSDtYt7mPVB2olxNR5RWJcAsH676/ef11bUZwvu7+RGYrYauVdDPcO519v68wRhXQtxsV9w==
-
 async@^3.2.3:
   version "3.2.3"
   resolved "https://registry.npmmirror.com/async/-/async-3.2.3.tgz#ac53dafd3f4720ee9e8a160628f18ea91df196c9"
@@ -916,11 +911,6 @@ command-exists@^1.2.8:
   resolved "https://registry.npmmirror.com/command-exists/-/command-exists-1.2.9.tgz#c50725af3808c8ab0260fd60b01fbfa25b954f69"
   integrity sha512-LTQ/SGc+s0Xc0Fu5WaKnR0YiygZkm9eKFvyS+fRsU7/ZWFF8ykFM6Pc9aCVf1+xasOOZpO3BAVgVrKvsqKHV7w==
 
-commander@^2.9.0:
-  version "2.20.3"
-  resolved "https://registry.npmmirror.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
-  integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
-
 commander@^5.1.0:
   version "5.1.0"
   resolved "https://registry.npmmirror.com/commander/-/commander-5.1.0.tgz#46abbd1652f8e059bddaef99bbdcb2ad9cf179ae"
@@ -1475,11 +1465,6 @@ duplexer2@0.0.2, duplexer2@~0.0.2:
   dependencies:
     readable-stream "~1.1.9"
 
-duplexer@~0.1.1:
-  version "0.1.2"
-  resolved "https://registry.npmmirror.com/duplexer/-/duplexer-0.1.2.tgz#3abe43aef3835f8ae077d136ddce0f276b0400e6"
-  integrity sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==
-
 e-prime@~0.10.0:
   version "0.10.4"
   resolved "https://registry.npmmirror.com/e-prime/-/e-prime-0.10.4.tgz#562f56a50f0def8a6c7a73069fff42b035e569d7"
@@ -1854,33 +1839,6 @@ fsevents@~2.3.2:
   version "2.3.2"
   resolved "https://registry.npmmirror.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
   integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
-
-ftp-response-parser@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmmirror.com/ftp-response-parser/-/ftp-response-parser-1.0.1.tgz#3b9d33f8edd5fb8e4700b8f778c462e5b1581f89"
-  integrity sha512-++Ahlo2hs/IC7UVQzjcSAfeUpCwTTzs4uvG5XfGnsinIFkWUYF4xWwPd5qZuK8MJrmUIxFMuHcfqaosCDjvIWw==
-  dependencies:
-    readable-stream "^1.0.31"
-
-ftp@^0.3.10:
-  version "0.3.10"
-  resolved "https://registry.npmmirror.com/ftp/-/ftp-0.3.10.tgz#9197d861ad8142f3e63d5a83bfe4c59f7330885d"
-  integrity sha512-faFVML1aBx2UoDStmLwv2Wptt4vw5x03xxX172nhA5Y5HBshW5JweqQ2W4xL4dezQTG8inJsuYcpPHHU3X5OTQ==
-  dependencies:
-    readable-stream "1.1.x"
-    xregexp "2.0.0"
-
-ftpsync@^0.2.0:
-  version "0.2.0"
-  resolved "https://packages.aliyun.com/61b0b1875676a35a3b7db451/npm/npm-registry/ftpsync/-/ftpsync-0.2.0.tgz#80788162545317d73f4444bea5f33b0f33f9d235"
-  integrity sha512-FMqEuRgGdcFLa+ULv3P21kCcabmMtO9sOYRNSJxJysdTXwCdnHc61jBYmUG8YMd+bECgIBsVZvY64DlTq6ekNg==
-  dependencies:
-    async "^1.5.1"
-    commander "^2.9.0"
-    ftp "^0.3.10"
-    jsftp "1.5.5"
-    minimatch "^3.0.0"
-    touch "^1.0.0"
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -2925,18 +2883,6 @@ jsdom@^19.0.0:
     ws "^8.2.3"
     xml-name-validator "^4.0.0"
 
-jsftp@1.5.5:
-  version "1.5.5"
-  resolved "https://registry.npmmirror.com/jsftp/-/jsftp-1.5.5.tgz#3d034569a58221c8ffc67d088688f59d2e995cee"
-  integrity sha512-oWPXVJy4uoBn4m0ucIix5YOS+YjRjJYh7Bf3eRx2TEdKmChaaBvjHwIsrvkOA4r09nAUNF4QJbNMCzxNSWmEMw==
-  dependencies:
-    debug "^2.2.0"
-    ftp-response-parser "^1.0.1"
-    once "^1.3.3"
-    parse-listing "^1.1.3"
-    stream-combiner "^0.2.2"
-    unorm "^1.4.1"
-
 json-schema@0.4.0:
   version "0.4.0"
   resolved "https://registry.npmmirror.com/json-schema/-/json-schema-0.4.0.tgz#f7de4cf6efab838ebaeb3236474cbba5a1930ab5"
@@ -3282,7 +3228,7 @@ minimalistic-crypto-utils@^1.0.1:
   resolved "https://registry.npmmirror.com/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
   integrity sha512-JIYlbt6g8i5jKfJ3xz7rF0LXmv2TkDxBLUkiBeZ7bAx4GnnNMr8xFpGnOxn6GhTEHx3SjRrZEoU+j04prX1ktg==
 
-"minimatch@2 || 3", minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.4:
+"minimatch@2 || 3", minimatch@^3.0.2, minimatch@^3.0.4:
   version "3.1.2"
   resolved "https://registry.npmmirror.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
   integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
@@ -3469,13 +3415,6 @@ node-fingerprint@0.0.2:
   resolved "https://registry.npmmirror.com/node-fingerprint/-/node-fingerprint-0.0.2.tgz#31cbabeb71a67ae7dd5a7dc042e51c3c75868501"
   integrity sha512-vPFfTD5EBJieQ4SI3v61fWxlV1kav3m9Dbejd6CjWhOJn8s+XMxpOOosCNAyIrUQ/jJOlPndfrZ0lSw4+RgwcA==
 
-nopt@~1.0.10:
-  version "1.0.10"
-  resolved "https://registry.npmmirror.com/nopt/-/nopt-1.0.10.tgz#6ddd21bd2a31417b92727dd585f8a6f37608ebee"
-  integrity sha512-NWmpvLSqUrgrAC9HCuxEvb+PSloHpqVu+FqcO4eeF2h5qYRhA7ev6KvelyQAKtegUbC6RypJnlEOhd8vloNKYg==
-  dependencies:
-    abbrev "1"
-
 nopt@~2.1.1:
   version "2.1.2"
   resolved "https://registry.npmmirror.com/nopt/-/nopt-2.1.2.tgz#6cccd977b80132a07731d6e8ce58c2c8303cf9af"
@@ -3596,7 +3535,7 @@ on-headers@~1.0.2:
   resolved "https://registry.npmmirror.com/on-headers/-/on-headers-1.0.2.tgz#772b0ae6aaa525c399e489adfad90c403eb3c28f"
   integrity sha512-pZAE+FJLoyITytdqK0U5s+FIpjN0JP3OzFi/u8Rx+EV5/W+JTWGXG8xFzevE7AjBfDqHv/8vL8qQsIhHnqRkrA==
 
-once@^1.3.0, once@^1.3.3:
+once@^1.3.0:
   version "1.4.0"
   resolved "https://registry.npmmirror.com/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
   integrity sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==
@@ -3679,11 +3618,6 @@ parse-glob@^3.0.4:
     is-dotfile "^1.0.0"
     is-extglob "^1.0.0"
     is-glob "^2.0.0"
-
-parse-listing@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.npmmirror.com/parse-listing/-/parse-listing-1.1.3.tgz#aa546f57fdc129cfbf9945cd4b757b14b06182dd"
-  integrity sha512-a1p1i+9Qyc8pJNwdrSvW1g5TPxRH0sywVi6OzVvYHRo6xwF9bDWBxtH0KkxeOOvhUE8vAMtiSfsYQFOuK901eA==
 
 parse5@6.0.1:
   version "6.0.1"
@@ -3942,7 +3876,7 @@ read-only-stream@^1.1.1:
     readable-stream "^1.0.31"
     readable-wrap "^1.0.0"
 
-readable-stream@1.1.x, "readable-stream@>=1.1.13-1 <1.2.0-0", readable-stream@^1.0.31, readable-stream@^1.1.13, readable-stream@^1.1.13-1, readable-stream@~1.1.9:
+"readable-stream@>=1.1.13-1 <1.2.0-0", readable-stream@^1.0.31, readable-stream@^1.1.13, readable-stream@^1.1.13-1, readable-stream@~1.1.9:
   version "1.1.14"
   resolved "https://registry.npmmirror.com/readable-stream/-/readable-stream-1.1.14.tgz#7cf4c54ef648e3813084c636dd2079e166c081d9"
   integrity sha512-+MeVjFf4L44XUkhM1eYbD8fyEsxcV81pqMSR5gblfcLCHfZvbrqy4/qYHE+/R5HoBUT11WV5O08Cr1n3YXkWVQ==
@@ -4418,14 +4352,6 @@ stream-combiner2@~1.0.0:
     duplexer2 "~0.0.2"
     through2 "~0.5.1"
 
-stream-combiner@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.npmmirror.com/stream-combiner/-/stream-combiner-0.2.2.tgz#aec8cbac177b56b6f4fa479ced8c1912cee52858"
-  integrity sha512-6yHMqgLYDzQDcAkL+tjJDC5nSNuNIx0vZtRZeiPh7Saef7VHX9H5Ijn9l2VIol2zaNYlYEX6KyuT/237A58qEQ==
-  dependencies:
-    duplexer "~0.1.1"
-    through "~2.3.4"
-
 stream-http@^1.2.0:
   version "1.7.1"
   resolved "https://registry.npmmirror.com/stream-http/-/stream-http-1.7.1.tgz#d3d2a6e14c36a38b9dafb199aee7bbc570519978"
@@ -4617,7 +4543,7 @@ through2@~0.5.1:
     readable-stream "~1.0.17"
     xtend "~3.0.0"
 
-"through@>=2.2.7 <3", through@~2.3.4:
+"through@>=2.2.7 <3":
   version "2.3.8"
   resolved "https://registry.npmmirror.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
   integrity sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==
@@ -4692,13 +4618,6 @@ too-wordy@~0.1.0:
   version "0.1.6"
   resolved "https://registry.npmmirror.com/too-wordy/-/too-wordy-0.1.6.tgz#97b69de6c28a176871305453f24fc747d434e9a7"
   integrity sha512-MV5F74YF9+UYsvwXGXTh+5YP3EqH/ivwWfyFE2/YHWQQxm9jDPmkIC23nkN133Ye4nO3HTXmiMcfGqJ5xRPfOA==
-
-touch@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmmirror.com/touch/-/touch-1.0.0.tgz#449cbe2dbae5a8c8038e30d71fa0ff464947c4de"
-  integrity sha512-7PLLVW4cfMVYXtMgX0ynJvyZDiupF2rzGzzf0yATTzgCgNK98DHjRSTm5zU1bFUtRjFdXNrEynn9+vhflVpC0A==
-  dependencies:
-    nopt "~1.0.10"
 
 tough-cookie@^4.0.0:
   version "4.0.0"
@@ -4806,11 +4725,6 @@ universalify@^0.1.2:
   version "0.1.2"
   resolved "https://registry.npmmirror.com/universalify/-/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
   integrity sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==
-
-unorm@^1.4.1:
-  version "1.6.0"
-  resolved "https://registry.npmmirror.com/unorm/-/unorm-1.6.0.tgz#029b289661fba714f1a9af439eb51d9b16c205af"
-  integrity sha512-b2/KCUlYZUeA7JFUuRJZPUtr4gZvBh7tavtv4fvk4+KV9pfGiR6CQAQAWl49ZpR3ts2dk4FYkP7EIgDJoiOLDA==
 
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
@@ -5046,11 +4960,6 @@ xmlchars@^2.2.0:
   version "2.2.0"
   resolved "https://registry.npmmirror.com/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
   integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
-
-xregexp@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmmirror.com/xregexp/-/xregexp-2.0.0.tgz#52a63e56ca0b84a7f3a5f3d61872f126ad7a5943"
-  integrity sha512-xl/50/Cf32VsGq/1R8jJE5ajH1yMCQkpmoS10QbFZWl2Oor4H0Me64Pu2yxvsRWK3m6soJbmGfzSR7BYmDcWAA==
 
 "xtend@>=4.0.0 <4.1.0-0", xtend@^4.0.0, xtend@^4.0.2:
   version "4.0.2"
