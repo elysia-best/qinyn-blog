@@ -15,7 +15,6 @@
     "hexo": "^5.4.2",
     "hexo-admin": "^2.3.0",
     "hexo-bridge": "^1.0.8",
-    "hexo-deployer-ftpsync": "^0.1.2",
     "hexo-generator-archive": "",
     "hexo-generator-baidu-sitemap": "",
     "hexo-generator-category": "",
