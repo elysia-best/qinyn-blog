@@ -105,14 +105,14 @@ sudo apt-get install -y kde-config-tablet
 
 如果你用的是源码编译安装方式，那么你需要手动创建 `xorg.conf` 文件。
 
-在终端中输入 `sudo nano /etc/X11/50-digimend.conf` 并回车，在文件末尾添加如下内容：
+在终端中输入 `sudo nano /etc/X11/50-digimend.conf` 并回车，在文件末尾添加如下内容（注意使用tab）：
 
 ```bash
 Section "InputClass"
-        Identifier "Tablet"
-        MatchUSBID "256c:0064"
-        MatchDevicePath "/dev/input/event*"
-        Driver "wacom"
+	Identifier "Tablet"
+	MatchUSBID "256c:0064"
+	MatchDevicePath "/dev/input/event*"
+	Driver "wacom"
 EndSection
 ```
 
