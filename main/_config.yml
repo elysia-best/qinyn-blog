@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.300c.top/
+url: https://blog.qinyn.eu.org/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,32 +102,3 @@ theme: jelly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-#  type: ftpsync
-#  host: v0.ftp.upyun.com # ftp服务器地址
-#  user: ganyz123/blogqinyn # ftp用户名
-#  pass: GSXytpncwHoWcNlfUDVzJSwIAAr5pmYZ # 你的ftp用户密码
-#  remote: / # 你要上传到的地址，例如/wwwroot
-#  port: 21 # ftp端口，不同的ftp可能会不一样
-#  verbose: true # 是否打印调试信息
-#  ignore_errors: false # 是否忽略错误
-#  connections: 2
-###
-  type: ftpsync
-  host: 004.3vftp.cn # ftp服务器地址
-  user: ganyz # ftp用户名
-  pass: ganyz123456 # 你的ftp用户密码
-  remote: / # 你要上传到的地址，例如/wwwroot
-  port: 21 # ftp端口，不同的ftp可能会不一样
-  verbose: true # 是否打印调试信息
-  ignore_errors: false # 是否忽略错误
-  connections: 1
-#  delete: false
-#  type: ftpsync
-#  host: ftpupload.net # ftp服务器地址
-#  user: epiz_30535705 # ftp用户名
-#  pass: ZL9FNYJjF5h5P # 你的ftp用户密码
-#  remote: /blog.qinyn.42web.io/htdocs # 你要上传到的地址，例如/wwwroot
-#  port: 21 # ftp端口，不同的ftp可能会不一样
-#  verbose: false # 是否打印调试信息
-#  ignore_errors: true # 是否忽略错误
-#  connections: 2
