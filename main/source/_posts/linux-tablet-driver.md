@@ -139,8 +139,8 @@ EndSection
 
 如下修改方法参考了如下wiki内容：
 
- -[xsetwacom](https://github.com/linuxwacom/xf86-input-wacom/wiki/xsetwacom)
- -[Rotation](https://github.com/linuxwacom/xf86-input-wacom/wiki/Rotation)
+ - [xsetwacom](https://github.com/linuxwacom/xf86-input-wacom/wiki/xsetwacom)
+ - [Rotation](https://github.com/linuxwacom/xf86-input-wacom/wiki/Rotation)
 
 （1）首先，查找终端中使用的“设备名称”:
 
