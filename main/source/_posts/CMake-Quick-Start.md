@@ -107,7 +107,7 @@ ${Name}
 一些使用的例子如下：
 
 ```CMake
-message(${MyString}) # 打印变量的值
+message(STATUS ${MyString}) # 打印变量的值
 ```
 
 我们注意到，`${Name}`这个语句整体，其实就代表了这个变量的值了
