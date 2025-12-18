@@ -102,3 +102,7 @@ theme: meow
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Baidu SEO
+baidusitemap:
+  path: baidusitemap.xml
