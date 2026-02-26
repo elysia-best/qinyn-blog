@@ -17,12 +17,12 @@ toc: true
 
 - 反射： 反射是电磁波在传播过程中遇到了比自己波长大很多（即远大于）的障碍物发生的现象。部分电磁波（体现为信号功率）会返回到发射端，而不是完全沿着传输路径抵达发射端。
 
-  ![image](/source/images/siyuan-note-publish/image-20250825111335-567l8fs.png "反射波和直射波的区别 [2]")
+  ![image](/images/siyuan-note-publish/image-20250825111335-567l8fs.png "反射波和直射波的区别 [2]")
 - 绕射：也称之为衍射。当电磁波的传输路径被一些尖锐、不规整的物体表面或者小的缺口时发生的物理现象。电磁波可以经过这些表面或者孔缝后继续扩散。（理解上可以参考光的衍射，下面的配图意思为，经过绕射后传播方向可以发生变化）。这使得，即使不存在可视的传播路径，电磁波仍然可以用衍射的方式到达接收端。
 
-  ![image](/source/images/siyuan-note-publish/image-20250825112830-88oto74.png "电磁波经过尖锐表面发生绕射  [2]")
+  ![image](/images/siyuan-note-publish/image-20250825112830-88oto74.png "电磁波经过尖锐表面发生绕射  [2]")
 - 散射：由一个或者多个尺寸远小于电磁波波长的障碍物引起的电磁波偏离其原来传播方向的物理现象。常见的引起散射的障碍物包含：树木，路标，灯柱等。
-- ![image](/source/images/siyuan-note-publish/image-20250825113134-aizcl0e.png "电磁波经过树木发生散射 [2]")
+- ![image](/images/siyuan-note-publish/image-20250825113134-aizcl0e.png "电磁波经过树木发生散射 [2]")
 
 经由这些物理现象的综合影响，不同位置处的信号强度也是不同的。
 
@@ -34,11 +34,11 @@ toc: true
 
 根据衰落的程度而言，衰落可以分为大尺度衰落和小尺度衰落 (i.e. Large scale fading and small scale fading)。大尺度衰落主要由FSPL和Sadowing来体现，一般在比较长的距离上表现更为明显。小尺度衰落一般是由Multipath effect所引起的不同电磁波在相位和幅值上的叠加导致的。由于不同路径下电磁波传递所需时间不同，不同路径的时延就会导致叠加后的电磁波电平快速变动（不同电磁波之间发生干涉）。这种分类方式的图示如下。
 
-![image](/source/images/siyuan-note-publish/image-20250825143307-ajfbgvu.png "衰落信道的分类 [1]")
+![image](/images/siyuan-note-publish/image-20250825143307-ajfbgvu.png "衰落信道的分类 [1]")
 
 此外，由于我们在通信过程中另一个重要的关心点为：的**时间选择性信道**和**频率选择性信道**。因此，可以将实际的信道看作一个线性时变系统（Linear Time Varing System，LTV），记为 $h\left(f,t\right)$。基于此，又可以对衰落信道做如下的分类了。
 
-![image](/source/images/siyuan-note-publish/image-20250825143222-7np70pj.png "基于LTV进行理解的衰落信道分类 [3]")
+![image](/images/siyuan-note-publish/image-20250825143222-7np70pj.png "基于LTV进行理解的衰落信道分类 [3]")
 
 ## 1.2 大尺度衰落
 
@@ -53,7 +53,7 @@ where $L$ should be the loss factor of the system. If the Rx and Tx systems are 
 Considering a ideal system, the FSPL can be expressed in dB as follows:
 
 $$
-\mathrm{PL}_F(d)[dB] = 10 \log_{10}\left( \frac{P_t}{P_r} \right) = -10\log_{10} \left( \frac{G_tG_r\lambda^2}{(4\pi)^2d^2} \right) \tag{2}
+\mathrm{PL} _ F(d)[dB] = 10 \log _ {10}\left( \frac{P_t}{P_r} \right) = -10\log_{10} \left( \frac{G_tG_r\lambda^2}{(4\pi)^2d^2} \right) \tag{2}
 $$
 
 The following code simulats the FSPL when Gains are all equal to 1 or 0.5.
@@ -91,7 +91,7 @@ plt.show()
 
 输出如下：
 
-![image](/source/images/siyuan-note-publish/image-20250825151915-yc45dzl.png "自由空间损耗模型")
+![image](/images/siyuan-note-publish/image-20250825151915-yc45dzl.png "自由空间损耗模型")
 
 与[1]中的结果进行对比，发现图形高度吻合，证明了此代码的正确性。从图中可以直接看出，路径损耗随着发送接收端距离的增长成对数形增长（图中使用了semilogx进行绘图）。同时，增大发射和接收天线的增益可以改善路径损耗的大小。根据公式（2）不难看出，当载波频率增加的时候，在相同间距下的路径损耗会随之增加，表明高频载波衰减更快。
 
@@ -300,7 +300,7 @@ $$
 
 NLOS与LOS环境的示意图如下 [1]。图中“视线”即为 Line-of-sight。
 
-![image](/source/images/siyuan-note-publish/image-20250828084539-386cu37.png)
+![image](/images/siyuan-note-publish/image-20250828084539-386cu37.png)
 
 ### 1.3.5 衰落信道生成与仿真
 
@@ -374,7 +374,7 @@ plt.show()
 
 使用 Python 运行后，输出结果如下图所示。与参考文献[1]中的仿真结果匹配，证明理论的正确性。
 
-![image](/source/images/siyuan-note-publish/image-20250828102040-xe5wsvl.png)
+![image](/images/siyuan-note-publish/image-20250828102040-xe5wsvl.png)
 
 同时，使用 `np.var(tf.math.abs(H).numpy()**2)`​计算实际生成的信道幅值的方差，结果为`0.9980489`​，十分接近输入的默认值 `1`，表明归一化的代码起到了作用。
 
@@ -426,7 +426,7 @@ plt.show()
 
  输出结果如下：
 
-![瑞利衰落和莱斯衰落的信道分布](/source/images/siyuan-note-publish/image-20250829085608-5mlaaxu.png "瑞利衰落和莱斯衰落的信道分布")
+![瑞利衰落和莱斯衰落的信道分布](/images/siyuan-note-publish/image-20250829085608-5mlaaxu.png "瑞利衰落和莱斯衰落的信道分布")
 
 可以看到，当 $K$ 较小的时候，式(21)中相当于只存在NLOS分量，此刻的PDF形状类似瑞利分布（上图橙色和黑色）。当 $K$较大的时候，式(21)趋于正态分布的PDF.　对于瑞利信道而言，$K \approx -40 \, \mathrm{dB}$，对于高斯信道而言，$K \gt 15 \, \mathrm{dB}$。
 
