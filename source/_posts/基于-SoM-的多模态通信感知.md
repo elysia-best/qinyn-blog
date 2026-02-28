@@ -1,7 +1,10 @@
 ---
 title: 基于SoM的多模态通信感知
 date: '2026-01-08 10:41:56'
-updated: '2026-02-28 16:41:39'
+updated: '2026-02-28 16:45:27'
+tags:
+  - DeepLearning
+  - 通信学习
 permalink: /post/multimodal-communication-perception-based-on-som-p7lzt.html
 comments: true
 toc: true
